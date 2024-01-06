@@ -68,7 +68,7 @@ ScrollReveal().reveal(".education", {
 });
 ScrollReveal().reveal(".experience", {
   ...scrollRevealOption,
-  origin: "right",
+  origin: "bottom",
 });
 
 
@@ -92,11 +92,11 @@ ScrollReveal().reveal(".about__btns", {
   delay: 2000,
 });
 
-// service container
-ScrollReveal().reveal(".service__card", {
-  duration: 1000,
-  interval: 500,
-});
+// // service container
+// ScrollReveal().reveal(".service__card", {
+//   duration: 1000,
+//   interval: 500,
+// });
 
 // blog container
 ScrollReveal().reveal(".blog__card", {
