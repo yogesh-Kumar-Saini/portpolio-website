@@ -52,20 +52,20 @@
 .btn {
   display: inline-block;
   padding: 8px 30px;
-  background: var(--primary-color);
-  color: var(--text-light);
-  border: 2px solid var(--primary-color-dark);
+  background: var(--secondary-color-dark);
+  /* color: var(--text-light); */
+  border: 2px solid var(--secondary-color-dark);
   font-size: 15px;
   font-weight: 600;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 0 .3rem rgb(255, 153, 0);
+  box-shadow: 0 0 .3rem rgb(22, 14, 2);
   transition: all 0.6s ease-in-out;
   z-index: 1;
 }
 .btn:hover {
   content: "";
-  background-color: var(--text-color);
+  /* background-color: var(--text-color); */
   transition: 0.9s linear;
 }
 
@@ -109,7 +109,6 @@ body {
 }
  .header__socials i{
   display: inline-block;
- 
   height: 45px;
   width: 45px; 
   background: Linear-gradient(130.08deg, #181817 0%, #1a0d0d 100%);
@@ -186,7 +185,7 @@ nav
 }
 
 .link.btn a {
-  color: var(--secondary-color) !important;
+  color: var(--secondary-color) ;
 }
 
 .link a:hover {
@@ -201,7 +200,6 @@ nav
   cursor: pointer;
 }
 .header__container {
-  /* background-color: transparent; */
   padding-top: 10rem;
   display: grid;
   gap: 4rem;
@@ -231,7 +229,6 @@ nav
   }
 
   25% {
-    /* transform: translateY(-12px) translateX(12px) ; */
     opacity: 0.9;
     filter: grayscale(20%);
   }
@@ -386,7 +383,6 @@ nav
 .project__btn {
   color: var(--white);
   margin-left: 1rem;
-  /* background-image: none; */
   background-color: transparent;
 }
 
@@ -458,10 +454,10 @@ transform: scale(1.1);}
 .port-content p {
   font-size: .9rem;
   font-weight: 600;
-  line-height: 1.5; /* Adjust line height as needed */
+  line-height: 1.5; 
   margin: 5px 0 15px 0;
-  padding: 10px; /* Add padding as needed */
-  border-radius: 5px; /* Add border radius for rounded corners */
+  padding: 10px; 
+  border-radius: 5px; 
 }
 
 .port-content a {
